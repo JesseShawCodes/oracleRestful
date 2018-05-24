@@ -13,6 +13,7 @@ function addTopic(tTitle, tText) {
   topicDetail[topicId] = {title: tTitle, text: tText, comments: []};
   return topicId;
 }
+
 function addComment(topicId, text) {
   // console.log("addComment(" + topicId + "," + text + ")");
   topicDetail[topicId].comments.push(text);
