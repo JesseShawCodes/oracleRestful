@@ -1,4 +1,13 @@
 body {
     width: 80%;
     margin: 0px auto;
+    background-color:  #8D8741;
+}
+
+div#topic_list {
+    background-color: #659DBD;
+}
+
+div#new_topic {
+    background-color:  #DAAD86;
 }
